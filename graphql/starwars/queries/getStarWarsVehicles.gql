@@ -1,0 +1,12 @@
+query getStarWarsVehicles {
+  allVehicles {
+    vehicles {
+      id
+      name
+      model
+      maxAtmospheringSpeed
+      passengers
+      length
+    }
+  }
+}

@@ -1,0 +1,12 @@
+query getPokemon {
+  pokemon_v2_pokemonspecies {
+    id
+    name
+    evolution_chain_id
+    base_happiness
+    pokemon_v2_pokemoncolor {
+      name
+    }
+    capture_rate
+  }
+}

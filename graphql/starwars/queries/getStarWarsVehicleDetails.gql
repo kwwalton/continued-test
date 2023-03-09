@@ -1,0 +1,17 @@
+query getStarWarsVehicleDetails($vehicleId: ID) {
+  vehicle(id: $vehicleId) {
+    name
+    model
+    maxAtmospheringSpeed
+    passengers
+    length
+    vehicleClass
+    crew
+    filmConnection {
+      films {
+        title
+        episodeID
+      }
+    }
+  }
+}
